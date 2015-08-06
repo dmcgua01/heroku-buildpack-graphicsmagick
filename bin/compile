@@ -105,7 +105,7 @@ cp -R $VENDORED_GRAPHICSMAGICK/* $gm_lib_path
 
 #add-apt-repository ppa:dhor/myway
 #apt-get update
-apt-get install graphicsmagick
+#apt-get install graphicsmagick
 
 echo "Building runtime environment for graphicsmagick" | arrow
 mkdir -p $BUILD_DIR/.profile.d
